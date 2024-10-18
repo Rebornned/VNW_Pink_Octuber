@@ -1,0 +1,134 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #FF69B4;
+  text-align: center;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  flex-direction: initial;
+  justify-content: space-between;
+  padding: 4%;
+}
+header div {
+  display: flex;
+  flex-direction: initial;
+}
+header div p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20;
+  padding-top: 15%;
+  color: #E4EEF1;
+}
+header nav ul {
+  gap: 20vh;
+  display: flex;
+  padding-right: 10vh;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20;
+  color: #E4EEF1;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+main .div_one {
+  background: #FFD9EC;
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 12%;
+  width: 100%;
+  justify-content: space-between;
+  gap: 10vw;
+}
+main .div_one p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 5vh;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+main .div_two {
+  background-color: #FF69B4;
+}
+main .div_two p {
+  color: white;
+}
+main .div_three {
+  gap: 5vw;
+}
+
+html, body {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+footer {
+  background-color: #FF69B4;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10vw;
+}
+footer figure {
+  display: flex;
+  align-items: flex-end;
+}
+
+.imgs_border {
+  border-radius: 20px;
+  border-style: solid;
+}
+
+.footer_nav_text {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  width: 33.3%;
+  line-height: 20px;
+  color: #E4EEF1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer_nav_text p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer_nav_imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 2%;
+  width: 33.3%;
+}
+
+.footer_nav {
+  display: flex;
+  background-color: #FF69B4;
+  justify-content: space-between;
+}/*# sourceMappingURL=css.css.map */
