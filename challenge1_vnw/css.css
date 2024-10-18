@@ -21,6 +21,7 @@ header div p {
   font-style: normal;
   font-weight: 400;
   font-size: 20;
+  padding-left: 1.5rem;
   padding-top: 15%;
   color: #E4EEF1;
 }
@@ -125,6 +126,11 @@ footer figure {
   gap: 25px;
   padding: 2%;
   width: 33.3%;
+}
+.footer_nav_imgs ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }
 
 .footer_nav {
