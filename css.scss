@@ -88,6 +88,9 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
 }
 
 
@@ -111,9 +114,6 @@ footer {
 }
 
 .footer_nav_text {
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 12px;
     width: 33.3%;
     line-height: 20px;
